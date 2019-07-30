@@ -14,6 +14,7 @@
 		25B43FA622F09403002D7088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B43FA522F09403002D7088 /* Assets.xcassets */; };
 		25B43FA922F09403002D7088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B43FA722F09403002D7088 /* LaunchScreen.storyboard */; };
 		25B43FB122F09BB5002D7088 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B43FB022F09BB5002D7088 /* ProfileViewController.swift */; };
+		25B43FB322F0A12F002D7088 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B43FB222F0A12F002D7088 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		25B43FA822F09403002D7088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25B43FAA22F09403002D7088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25B43FB022F09BB5002D7088 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		25B43FB222F0A12F002D7088 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				25B43F9C22F09403002D7088 /* AppDelegate.swift */,
+				25B43FB222F0A12F002D7088 /* LoginViewController.swift */,
 				25B43F9E22F09403002D7088 /* CalendarViewController.swift */,
 				25B43FA022F09403002D7088 /* HomeViewController.swift */,
 				25B43FB022F09BB5002D7088 /* ProfileViewController.swift */,
@@ -144,6 +147,7 @@
 				25B43FA122F09403002D7088 /* HomeViewController.swift in Sources */,
 				25B43F9D22F09403002D7088 /* AppDelegate.swift in Sources */,
 				25B43FB122F09BB5002D7088 /* ProfileViewController.swift in Sources */,
+				25B43FB322F0A12F002D7088 /* LoginViewController.swift in Sources */,
 				25B43F9F22F09403002D7088 /* CalendarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
