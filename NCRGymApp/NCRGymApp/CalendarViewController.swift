@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  CalendarViewController.swift
 //  NCRGymApp
 //
 //  Created by Desai, Saurav on 7/30/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class CalendarViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
