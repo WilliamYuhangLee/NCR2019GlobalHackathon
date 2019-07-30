@@ -17,7 +17,7 @@
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.58437647459999997" green="1" blue="0.90207154680000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.55575815319999999" green="0.86346227689999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Calendar" image="calendar" id="acW-dT-cKf"/>
@@ -44,7 +44,7 @@
                                 <state key="normal" title="Check In"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.58437647463548581" green="1" blue="0.90207154679435153" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.55575815319999999" green="0.86346227689999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="XKL-1s-SHN" secondAttribute="trailing" constant="24" id="Qcx-5c-csX"/>
                             <constraint firstItem="XKL-1s-SHN" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="24" id="hQV-3N-25P"/>
@@ -64,7 +64,7 @@
                     <view key="view" contentMode="scaleToFill" id="Kfp-Jg-33Y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.58437647459999997" green="1" blue="0.90207154680000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.55575815319999999" green="0.86346227689999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="Hm5-Aw-r1p"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" image="profile" id="5XF-pV-lFz"/>
@@ -114,7 +114,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.58437647459999997" green="1" blue="0.90207154680000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.55575815316497745" green="0.86346227688504729" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="lcu-s4-3aa" firstAttribute="centerX" secondItem="hd3-Dd-V6A" secondAttribute="centerX" id="3f7-Sq-h9V"/>
                             <constraint firstItem="B9c-aN-bUN" firstAttribute="top" secondItem="lcu-s4-3aa" secondAttribute="bottom" constant="42" id="7Bk-Sy-ni1"/>
@@ -130,10 +130,10 @@
             </objects>
             <point key="canvasLocation" x="-1217.3913043478262" y="0.0"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController id="49e-Tb-3d3" customClass="TabBarViewController" customModule="NCRGymApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
