@@ -31,7 +31,7 @@ class HomeViewController: UIViewController {
         self.view.addSubview(chart.view)
         self.chartView = chart
         
-        // NOTE: this is just sample data to test the bars chart
+        // TODO: retrieve actual data from server
     }
 
 
