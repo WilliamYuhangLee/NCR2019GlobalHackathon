@@ -16,7 +16,6 @@ def create_app():
     # Detect Config class from environment and import the specified Config class from config.py and instance/config.py
     config_class = os.getenv('FLASK_ENV', 'production')
     app.config.from_object(config.__name__ + '.' + config_class.capitalize() + 'Config')
-    app.config.from_pyfile('config.py')
 
     # Register Blueprints
     from .gym import api_bp
