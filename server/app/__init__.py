@@ -1,10 +1,12 @@
 import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
 
 from app import config
 
 db = SQLAlchemy()
+migrate = Migrate()
 
 
 def create_app():
@@ -22,6 +24,7 @@ def create_app():
 
     # Initialize extensions
     db.init_app(app)
+    migrate.init_app(app)
 
     # Register Blueprints
     from .gym import api_bp
