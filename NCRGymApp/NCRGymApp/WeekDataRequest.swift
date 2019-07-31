@@ -16,13 +16,12 @@ enum DataError: Error {
 
 struct WeekDataRequest {
     let url: URL
-    let apiKey = "7a6cd093b45790f7027ee"
     
     init() {
         
         // TODO: replace fake url and api key with real ones once backend is finished
         
-        let urlString = "https://test-url.com/api/v1/gymdata?api_key=\(apiKey)"
+        let urlString = "http://127.0.0.1:5000/stats/week"
         guard let url = URL(string: urlString) else {fatalError()}
         self.url = url
     }

@@ -15,7 +15,7 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var uiChartView: UIView!
     
-    var weekData: WeekData
+    var weekData: WeekData?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +34,9 @@ class HomeViewController: UIViewController {
             ], color: UIColor.cyan, barWidth: 15)
         self.uiChartView.addSubview(chart.view)
         self.chartView = chart
+        
+        getData()
+        print(weekData)
         
         // TODO: retrieve actual data from server
     }
