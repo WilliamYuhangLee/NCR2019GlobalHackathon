@@ -15,6 +15,8 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var uiChartView: UIView!
     
+    var weekData: WeekData
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -34,6 +36,18 @@ class HomeViewController: UIViewController {
         self.chartView = chart
         
         // TODO: retrieve actual data from server
+    }
+    
+    func getData() {
+        let weekDataRequest = WeekDataRequest()
+        weekDataRequest.getData {[weak self] result in
+            switch result {
+            case .failure(let error):
+                print(error)
+            case .success(let weekData):
+                self?.weekData = weekData
+            }
+        }
     }
 
 
