@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25661D6722F1EC99007BBF54 /* WeekData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25661D6622F1EC99007BBF54 /* WeekData.swift */; };
+		25661D6922F1F341007BBF54 /* WeekDataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25661D6822F1F341007BBF54 /* WeekDataRequest.swift */; };
 		25B43F9D22F09403002D7088 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B43F9C22F09403002D7088 /* AppDelegate.swift */; };
 		25B43F9F22F09403002D7088 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B43F9E22F09403002D7088 /* CalendarViewController.swift */; };
 		25B43FA122F09403002D7088 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B43FA022F09403002D7088 /* HomeViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25661D6622F1EC99007BBF54 /* WeekData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekData.swift; sourceTree = "<group>"; };
+		25661D6822F1F341007BBF54 /* WeekDataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDataRequest.swift; sourceTree = "<group>"; };
 		25B43F9922F09403002D7088 /* NCRGymApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCRGymApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B43F9C22F09403002D7088 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25B43F9E22F09403002D7088 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 				25B43FA722F09403002D7088 /* LaunchScreen.storyboard */,
 				25B43FAA22F09403002D7088 /* Info.plist */,
 				25B43FB422F0C236002D7088 /* TabBarViewController.swift */,
+				25661D6622F1EC99007BBF54 /* WeekData.swift */,
+				25661D6822F1F341007BBF54 /* WeekDataRequest.swift */,
 			);
 			path = NCRGymApp;
 			sourceTree = "<group>";
@@ -97,7 +103,6 @@
 				8F33CE136D329AD05129009B /* Pods-NCRGymApp.debug.xcconfig */,
 				68DCE389E212D5B98227FC99 /* Pods-NCRGymApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -218,10 +223,12 @@
 			files = (
 				25B43FA122F09403002D7088 /* HomeViewController.swift in Sources */,
 				25B43F9D22F09403002D7088 /* AppDelegate.swift in Sources */,
+				25661D6722F1EC99007BBF54 /* WeekData.swift in Sources */,
 				25B43FB122F09BB5002D7088 /* ProfileViewController.swift in Sources */,
 				25B43FB322F0A12F002D7088 /* LoginViewController.swift in Sources */,
 				25B43FB522F0C236002D7088 /* TabBarViewController.swift in Sources */,
 				25B43F9F22F09403002D7088 /* CalendarViewController.swift in Sources */,
+				25661D6922F1F341007BBF54 /* WeekDataRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
